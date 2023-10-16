@@ -1,0 +1,191 @@
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+body
+{
+/*background-image: url(1.jpg);*/	
+/*background-size: cover;*/
+background-image: linear-gradient(to right, red, yellow);
+background-position: center;
+font-family: sans-serif;
+}
+.menu-bar
+{
+background: rgb(0,10,0);
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width: 100px;
+margin: 4px;
+padding: 8px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+background: #2bab0d;
+border-radius: 6px;
+}
+.menu-bar .fa
+{
+margin-right: 5px;
+}
+.sub menu
+{
+display: none;
+}
+.menu-bar ul li:hover .sub menu
+{
+display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 0px;
+margin-left:-20px;
+}
+
+.menu-bar ul li:hover .sub menu ul
+{
+display: block;
+margin: 5px;
+}
+.menu-bar ul li:hover .sub menu ul li
+{
+width: 150px;
+padding: 15px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub menu ul li:last child
+{
+border-bottom: none;
+}
+.menu-bar ul li:hover .sub menu ul li a:hover
+{
+color: #b2ff00;
+}
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.menu-bar
+{
+background: rgb(0,10,0);
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width: 100px;
+margin: 3px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+background: #2bab0d;
+border-radius: 6px;
+}
+.menu-bar .fa
+{
+margin-right: 5px;
+}
+.sub menu
+{
+display: none;
+}
+.menu-bar ul li:hover .sub menu
+{
+display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 0px;
+margin-left:-20px;
+}
+
+.menu-bar ul li:hover .sub menu ul
+{
+display: block;
+margin: 5px;
+}
+.menu-bar ul li:hover .sub menu ul li
+{
+width: 150px;
+padding: 15px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub menu ul li:last child
+{
+border-bottom: none;
+}
+.menu-bar ul li:hover .sub menu ul li a:hover
+{
+color: #b2ff00;
+}
+.box{
+width:250px;
+padding:20px;
+position:absolute;
+top:80%;
+left:90%;
+transform:translate(-50%, -50%);
+background: rgb(33,34,35,0.9);
+text-align:center;
+border-radius:15px;
+box-shadow:5px 5px 4px #lightgray;
+}
+.box h1{
+color:white;
+text-transform: uppercase;
+font-weight: 600;
+text-shadow:2px 2px 2px #gray;
+}
+.box input{
+display: block;
+background: none;
+margin: 20px auto;
+padding:12px;
+text-align: center;
+border: 2px solid #4090db;
+cutline: none;
+color: white;
+border-radius: 10px;
+transition: 0.3s;
+width: 180px;
+}
+.box input[type="submit"]:hover{
+width: 120px;
+cursor: pointer;
+background: rgba(51,235,100,0.4);
+width: 120px;
+}
+ 
+
+
+

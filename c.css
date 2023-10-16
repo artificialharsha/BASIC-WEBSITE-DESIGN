@@ -1,0 +1,101 @@
+body{
+margin: 0;
+font-family: sans-serif;
+background-image: linear-gradient(to right, red, yellow);
+rgb(25 20 98) 0%;
+rgba(22,22,156,1) 35%;
+rgb(9,108,128) 100%;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.menu-bar
+{
+background: rgb(0,10,0);
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width: 100px;
+margin: 3px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+background: #2bab0d;
+border-radius: 6px;
+}
+.menu-bar .fa
+{
+margin-right: 5px;
+}
+.sub menu
+{
+display: none;
+}
+.menu-bar ul li:hover .sub menu
+{
+display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 4px;
+margin-left:-20px;
+}
+
+.menu-bar ul li:hover .sub menu ul
+{
+display: block;
+margin: 5px;
+}
+.menu-bar ul li:hover .sub menu ul li
+{
+width: 150px;
+padding: 15px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub menu ul li:last child
+{
+border-bottom: none;
+}
+.menu-bar ul li:hover .sub menu ul li a:hover
+{
+color: #b2ff00;
+}
+.section
+{
+background-color: #252121;
+display: flex;
+justify-content: space-between;
+padding: 40px;
+width: 60%;
+margin: 10rem auto 0 auto;
+}
+.section img
+{
+height: 280px;
+}
+.section h1
+{
+margin: 0;
+color: #orange;
+}
+.section p
+{
+color: #gray;
+marin-right: 15px;
+}
